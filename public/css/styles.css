@@ -1,0 +1,48 @@
+p {
+  font-size: 30px;
+}
+section {
+  width: 70%;
+}
+aside {
+  width: 30%;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.navlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 1em 0;
+}
+.navlist > li {
+  display: inline-block;
+  margin-left: 2em;
+  width: 50px;
+  justify-content: center;
+  background-color: greenyellow;
+}
+nav {
+  background-color: darkolivegreen;
+}
+body {
+  background-color: darkseagreen;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer > h1 {
+  display: inline;
+}
+.submitButton {
+  width: 40%;
+  margin: 5% 30%;
+}
